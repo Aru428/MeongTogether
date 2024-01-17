@@ -1,0 +1,141 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+@import '../Nav/_Nav.module.scss';
+
+@mixin box {
+  border-radius: 35px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+// .navShadow {
+//   background-color: #e59797;
+//   height: 1000px;
+// }
+
+.bg {
+  // display: block;
+  // justify-content: center;
+  // align-items: center;
+
+  width: 850px;
+  // height: 750px;
+
+  max-height: 800px;
+  padding: 25px;
+  margin: -18px 0 0px 25px;
+
+  position: relative;
+  top: 100px;
+
+  font-family: 'Pretendard';
+  font-weight: 600;
+  background-color: #7eba94;
+
+  border-radius: 35px;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+}
+.container {
+  margin: -80px 0 0 0px;
+  padding: 0;
+
+  border-radius: 35px;
+  border: 2px solid #000000;
+  // margin: 5px;
+  background-color: #f5ba3f;
+  box-shadow: 4px 4px 0px #000000;
+
+  h2 {
+    margin: 25px 0 15px 25px;
+    font-size: 25px;
+  }
+
+  .innerContainer {
+    position: relative;
+
+    background-color: white;
+    border-top: 2px solid black;
+    border-radius: 0 0 35px 35px;
+    // width: ;
+    // height: 62vh;
+    padding: 30px;
+
+    .boardTypeContainer {
+      .boardTypeSelect {
+        @include box;
+        cursor: pointer;
+        margin: 0 0 30px 0;
+        height: 36px;
+        width: 751px;
+        padding: 5px;
+      }
+    }
+
+    .innerContainerText {
+      margin: 0 0 10px 0;
+      padding: 5px;
+    }
+
+    .titleContainer {
+      .titleText {
+        @include box;
+        // margin: 0 0 5px 0;
+        padding-left: 13px;
+        width: 732px;
+        height: 30px;
+      }
+    }
+
+    .contents {
+      margin: 30px 0 0 0;
+      .contentsText {
+        @include box;
+        width: 718px;
+        height: 255px;
+        resize: none;
+        padding: 13px;
+      }
+    }
+
+    small {
+      margin: 0px 0 0 5px;
+      color: rgb(215, 56, 56);
+    }
+
+    @mixin btn-style {
+      font-size: 15px;
+      font-weight: 900;
+      width: 100px;
+      height: 30px;
+      border-radius: 35px;
+      border: 2px solid #000000;
+      background-color: #f5ba3f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      box-shadow: 1.5px 2px 0px #000000;
+    }
+
+    .btnContainer {
+      display: flex;
+      margin: 20px 0 0 518px;
+      width: 240px;
+
+      .uploadBtn {
+        @include box;
+        @include btn-style;
+        padding: 5px;
+        cursor: pointer;
+      }
+
+      .submitBtn {
+        @include box;
+        @include btn-style;
+        padding: 18px;
+        cursor: pointer;
+        padding: 20px;
+      }
+    }
+  }
+}

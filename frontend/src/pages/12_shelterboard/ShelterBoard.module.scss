@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+
+.bg {
+  margin: 30px 20px 20px 18px;
+  padding: 10px;
+  background-color: #7eba94;
+  border-radius: 35px;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  font-family: "Pretendard";
+  height: 770px;
+
+  .pagination {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: transparent;
+      border: 0 solid transparent;
+      margin: 5px 14px 0px 14px;
+      cursor: pointer;
+    }
+
+    span {
+      // display: inline-block;
+      // margin: 0 0 3px 0;
+    }
+  }
+}
+
+.showDogs {
+  display: flex;
+  flex-wrap: wrap;
+
+  .Dog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+    img {
+      width: 120px; // 원하는 크기로 조절해주세요
+      height: 120px; // 가로 크기에 맞게 자동으로 세로 크기 조절
+      object-fit: cover;
+      border-radius: 25px;
+      border: 2px solid #000000;
+      box-shadow: 0px 2px 0px #000000;
+    }
+  }
+}
+
+.Dog {
+  width: calc(50% - 45px);
+  height: 125px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  background-color: #f8f2e5;
+  border-radius: 35px;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.Profile {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: none;
+}
+
+.shelterHead {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  border: 2px solid #000000;
+  border-radius: 35px;
+  margin: 10px;
+  box-shadow: 1.5px 2px 0px #000000;
+  background-color: #fa8b8b;
+  justify-content: space-around;
+  font-weight: bold;
+
+  input {
+    width: 155px;
+    border-radius: 10px;
+    padding-left: 6px;
+  }
+
+  button {
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #f5ba3f;
+    cursor: pointer;
+  }
+}

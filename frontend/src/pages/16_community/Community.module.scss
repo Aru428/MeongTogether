@@ -1,0 +1,230 @@
+.bg {
+  margin: 30px 20px 20px 20px;
+  padding: 10px;
+  background-color: #7eba94;
+  border-radius: 35px;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  height: 770px;
+  min-width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg2 {
+  width: 850px;
+}
+
+.section {
+  background-color: #fff;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  width: calc(100%);
+  border-radius: 35px;
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0px;
+
+  div {
+    cursor: pointer;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex2 {
+  display: flex;
+}
+
+.head {
+  width: calc(105%);
+  height: 65px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fa8b8b;
+}
+
+.buttonHold {
+  width: calc(15%);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_opentalk {
+  width: calc(100%);
+  height: 45px;
+  background-color: #f5ba3f;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.button_delete {
+  width: calc(18%);
+  height: 65px;
+  background-color: #f8f2e5;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.button_manage {
+  width: calc(18%);
+  height: 65px;
+  background-color: #f5ba3f;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.headSection {
+  width: calc(105%);
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+
+  .section {
+    width: calc(44%);
+    margin: 0px 0px;
+  }
+}
+
+.boardSection {
+  width: calc(105%);
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.container {
+  max-width: 950px;
+  min-width: 850px;
+}
+
+.button {
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+
+  &.button.board {
+  }
+
+  &.button.opentalk {
+  }
+}
+
+.c_main_img {
+  position: relative;
+
+  .c_main {
+    left: 10px;
+    position: absolute;
+    color: beige;
+
+    &.groupName {
+      top: 200px;
+    }
+  }
+}
+
+.CommuPic {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  font-size: 15px;
+}
+
+.modal {
+  position: fixed; /* 모달창이 스크롤과 독립적으로 고정되도록 설정 */
+  z-index: 999; /* 다른 요소들 위에 위치하도록 설정 */
+  left: 0;
+  top: 0;
+  width: 100%; /* 전체 너비에 걸쳐서 보이도록 설정 */
+  height: 100%; /* 전체 높이에 걸쳐서 보이도록 설정 */
+  overflow: auto; /* 내용이 많을 경우 스크롤 가능하도록 설정 */
+  background-color: rgb(
+    0,
+    0,
+    0
+  ); /* 배경을 어둡게 만들어서 모달창이 돌출되게 함 */
+  background-color: rgba(0, 0, 0, 0.4); /* 검은색 배경을 약간 투명하게 설정 */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% 상단 마진과 가운데 정렬 */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* 모달창의 너비 설정 */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.board {
+  background-color: #f8f2e5;
+  height: 120px;
+  width: calc(50% - 55px);
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  border-radius: 35px;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+
+.bottom {
+  display: flex;
+  width: calc(105%);
+
+  justify-content: center;
+
+  div {
+    cursor: pointer;
+  }
+}
+
+.flex_m {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,206 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+$form-width: 700px;
+$red: rgb(215, 56, 56);
+
+@mixin btn-style {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  width: 120px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 13px;
+
+  box-shadow: 1.5px 2px 0px #000000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 35px;
+  background: #7eba94;
+}
+@mixin btn-animation {
+  background: {
+    image: linear-gradient(45deg, #f1c40f, 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+  cursor: pointer;
+  display: flex;
+  &:hover,
+  &:focus {
+    color: black;
+    background-position: 0;
+  }
+}
+
+.container {
+  max-width: 900px;
+  width: 880px;
+  background-color: #f8f2e5;
+  margin: 30px 0 0 20px;
+  border-radius: 35px;
+  border: 2px solid #000000;
+  height: 1100px;
+  box-shadow: 3px 3px 0px #000000;
+
+  p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 40px;
+  }
+
+  .form {
+    width: $form-width;
+    margin: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+
+    .essential {
+      font-size: 13px;
+      color: $red;
+      margin: 0;
+      text-align: right;
+    }
+
+    .divisionLine {
+      border-bottom: 2px solid black;
+      margin: 5px auto 40px auto;
+    }
+
+    .formGroup {
+      width: $form-width;
+      margin: 0 0 20px 20px;
+
+      input,
+      textarea {
+        position: relative;
+        float: right; // 오른쪽 정렬
+        right: 100px;
+        // margin-right: 40px;
+        border-radius: 35px;
+        border: 2px solid black;
+        width: 280px;
+        height: 25px;
+        padding-left: 13px;
+      }
+
+      textarea {
+        resize: none;
+        width: 267px;
+        height: 170px;
+      }
+
+      small {
+        font-size: 10px;
+        margin-left: 10px;
+        color: $red;
+      }
+
+      .star {
+        color: $red;
+      }
+    }
+
+    .id,
+    .nickname {
+      display: flex;
+      align-items: center;
+
+      .inputContainer {
+        display: flex;
+        margin-left: auto;
+
+        .idInput {
+        }
+
+        .idButton {
+          @include btn-style;
+          margin: 0 23px 0px -92px;
+          color: #000000;
+          font-size: 13px;
+          text-align: center;
+          font-weight: 700;
+          width: 70px;
+          height: 30px;
+          padding: 0px;
+          box-shadow: 1px 1px 0px #000000;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .confirmPw {
+      margin-bottom: 60px;
+    }
+
+    .fileBox {
+      display: flex;
+      // justify-content: center;
+
+      .uploadName {
+        background-color: white;
+        width: 295px;
+        height: 200px;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        // font-weight: 300;
+        position: relative;
+        left: 212px;
+        margin: 0 0 0 -18px;
+        // padding: 13px;
+
+        position: relative;
+        display: flex;
+        // justify-content: center;
+        flex-direction: column;
+        // align-items: center;
+        border: 2px solid black;
+        border-radius: 35px;
+      }
+
+      .aaa {
+        margin-top: 70px;
+        font-weight: 400;
+      }
+      label {
+        cursor: pointer;
+        align-items: center;
+        margin: 20px auto auto auto;
+        text-align: center;
+      }
+
+      input[type='file'] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+      }
+    }
+
+    .introText {
+      padding: 15px;
+      &::placeholder {
+        text-align: center;
+      }
+    }
+
+    .btn {
+      @include btn-style;
+      @include btn-animation;
+      top: 230px;
+      left: 140px;
+      // position: relative;
+      // align-items: center;
+    }
+  }
+}

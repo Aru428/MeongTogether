@@ -1,0 +1,43 @@
+.modalBackground {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  position: relative; /* Ensure positioning context for absolute button */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  .closeButton {
+    position: absolute;
+    top: 0px; /* Adjust as needed to align properly */
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .modalName {
+    margin: 10px;
+  }
+
+  .modalIntro {
+    margin: 10px;
+  }
+}
+.closeButton:hover {
+  color: red; /* Change color on hover (example) */
+}

@@ -1,0 +1,203 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+* {
+  font-family: 'Pretendard';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+
+@mixin small-btn {
+  width: 60px;
+  height: 30px;
+  background-color: #edf5ed;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 0 3px 0 3px;
+}
+
+.CommunityBoardHead {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  border: 2px solid #000000;
+  border-radius: 35px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1.5px 2px 0px #000000;
+  background-color: #fa8b8b;
+  justify-content: space-around;
+  font-weight: bold;
+
+  input {
+    width: 155px;
+    border-radius: 10px;
+    padding-left: 6px;
+  }
+
+  button {
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #f5ba3f;
+    cursor: pointer;
+  }
+}
+
+.bg {
+  margin: 30px 20px 20px 20px;
+  padding: 10px;
+  background-color: #7eba94;
+  border-radius: 35px;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  height: 770px;
+  min-width: 850px;
+  display: flex;
+}
+
+.Groupbar {
+  width: 400px;
+  height: 125px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  background-color: #f8f2e5;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  .CommuPic {
+    width: 120px; // 원하는 크기로 조절해주세요
+    height: 120px; // 가로 크기에 맞게 자동으로 세로 크기 조절
+    border-radius: 20px;
+    object-fit: cover;
+    border: 2px solid #000000;
+  }
+  .Profile {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: calc(100%);
+    height: 120px;
+  }
+}
+
+.Hotbar_1 {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 35px;
+  box-shadow: 1.5px 2px 0px #000000;
+  border: 2px solid #000000;
+  margin: 10px;
+}
+
+.Hotbar_1_t {
+  z-index: 2;
+  top: calc(0%);
+  color: black;
+  width: 100%;
+  height: 15px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5ba3f;
+  font-size: 20px;
+}
+.hotzone {
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 0px 0px 35px 35px;
+}
+
+.Hotbar_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.Hotbar_3 {
+  width: 100%;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .CommuPic {
+    width: 400px; // 원하는 크기로 조절해주세요
+    height: 100%; // 가로 크기에 맞게 자동으로 세로 크기 조절
+    object-fit: cover;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  .Profile {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 350px;
+    height: 150px;
+  }
+}
+
+.MakeGroup {
+  width: 60%;
+  height: 65px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f5ba3f;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 2px 0px #000000;
+  border-radius: 35px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 65px;
+  border: 2px solid #000000;
+  border-radius: 35px;
+  margin: 10px;
+  box-shadow: 1.5px 2px 0px #000000;
+  background-color: #fa8b8b;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.c_buttons {
+  display: flex;
+}
+
+.S_2 {
+  display: flex;
+  // flex-direction: column-reverse;
+  flex-direction: column;
+
+  .c_buttons {
+    // flex-direction: column-reverse;
+  }
+
+  .pagination {
+    button {
+      // @include small-btn;
+      background-color: transparent;
+      cursor: pointer;
+      border: 0px solid transparent;
+      margin: 6px 0 0 0;
+    }
+  }
+}

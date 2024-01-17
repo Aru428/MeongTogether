@@ -1,0 +1,106 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+.nav {
+  width: 240px;
+  height: 800px;
+  margin-right: 10px;
+  margin-top: 28px;
+}
+
+.navContainer {
+  border-radius: 35px;
+  border: 2px solid #000000;
+  width: 230px;
+  height: 790px;
+  font-family: 'Pretendard';
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 9;
+  position: absolute;
+
+  color: black;
+  background-color: #edf5ed;
+
+  .logo {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    img {
+      width: 150px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    overflow: visible;
+    padding: 0;
+    margin: 20px;
+    height: 100%;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .category {
+    text-decoration: none;
+    // padding: 10px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+  }
+
+  li {
+    background: #edf5ed;
+    min-width: 100px;
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    border: 2px solid rgba(0, 0, 0, 0);
+  }
+
+  li:hover {
+    background: #f5ba3f;
+    color: #fff;
+    border-radius: 35px;
+    border: 2px solid #000000;
+    box-shadow: 1.5px 2px 0px #000000;
+  }
+
+  .signin {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  li a {
+    display: block;
+  }
+}
+
+.logoutButton {
+  border: 0;
+  outline: 0;
+  background-color: #edf5ed;
+  margin-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navShadow {
+  border-radius: 35px;
+  border: 2px solid #000000;
+  width: 230px;
+  height: 790px;
+  font-family: 'Pretendard';
+  font-size: 24px;
+  font-weight: 900;
+  z-index: 1;
+  position: relative;
+  left: 6px;
+  top: 5px;
+  background-color: #7eba94;
+}

@@ -1,0 +1,19 @@
+.App {
+}
+
+html,
+body,
+main {
+  height: 100vh;
+}
+
+body {
+  background-color: #f8f8f8;
+  /* margin-bottom: -60px; */
+  max-width: 1200px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 0;
+}
