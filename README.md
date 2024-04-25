@@ -43,14 +43,14 @@
 #### 1️⃣ 홈
 
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/06dd151d-365d-4a0a-acae-62257dd293bf">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/b02ff72d-02b9-429e-a7e4-da426175ac5d">
 </div>
 
 #### 2️⃣ 게시판
 
 1. 게시판
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/fa0465a3-601e-4ae0-9326-b7c715c10b54">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/6947e173-6e11-49cf-9fd6-907b6b9817a0">
 </div>
 
 2. 게시글
@@ -60,19 +60,19 @@
 
 3. 글 작성
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/820f6318-e6f3-4923-bf59-c433adec2ba8">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/2d0f0585-05da-4ca7-9d64-b835155f7951">
 </div>
 
 #### 3️⃣ 소모임
 
 1. 소모임
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/953ab227-7e4c-4db5-b632-dfe2d54960b9">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/b301a18b-f521-40ef-8bd8-dbbd30ff9003">
 </div>
 
 2. 소모임 상세
 <div align="center">
-	<img src="/app/static/img/info1.jpg">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/1e0975de-bb5c-4578-9070-2b4af8b7b744">
 </div>
 
 3. 소모임 게시판
@@ -87,43 +87,43 @@
 
 5. 소모임 만들기
 <div align="center">
-	<img src="/app/static/img/info2.jpg">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/15170108-ea09-4384-88b7-7cb8a8fe8a33">
 </div>
 
 #### 4️⃣ 유기견 공고
 
 <div align="center">
-	<img src="/app/static/img/info2.jpg">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/b7517d00-8015-4e70-a832-b85de94d8c77">
 </div>
 
 #### 5️⃣ 로그인
 
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/922989d1-144a-489e-8f37-e584e5801529">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/6d8881ed-bf13-4d36-b667-0ad7772d6c54">
 </div>
 
 #### 6️⃣ 회원가입
 
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/05b9db5b-38ba-4878-970a-76e775f80412">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/a92be5ee-6376-4596-abe2-7df72165a89c">
 </div>
 
 #### 7️⃣ 마이페이지
 
 <div align="center">
-	<img src="https://github.com/leekyoungdo/team2/assets/85711768/60e219ae-0ba4-4152-943f-013277ea9c83">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/6200b669-1c5c-49a9-9d07-b2bd537c168a">
 </div>
 
 #### 8️⃣ 프로필
 
 <div align="center">
-	<img src="/app/static/img/info2.jpg">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/624a37a0-7a1b-42f2-a4e5-ed1eef6ff97e">
 </div>
 
-## ERD
+#### 9️⃣ 채팅
 
 <div align="center">
-	<img src="/app/static/img/info2.jpg">
+	<img src="https://github.com/leekyoungdo/team2/assets/85711768/66425f63-aa59-47cc-9320-f54b8c786be1">
 </div>
 
 ## Tech Stack
