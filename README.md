@@ -11,13 +11,13 @@
 
 > 🐶 **개판살판**🐶
 
-|                  팀원명                   | 역할                                                                                                                     |                  회고록                   |
-| :---------------------------------------: | :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------------: |
-| [이도준(팀장)](https://github.com/DJ94DJ)  | FE) community, community board, shelter, Slack 및 spread sheet 관리                                                       | [Link](#) |
-| [이동욱](https://github.com/ldw0123)       | FE) signin, signup, write, post, comment                                                                               | [Link](#)|
-| [조연주](https://github.com/J-Yeonju)      | FE) home, nav, mypage, userprofile, board                                                                                | [Link](#) |
-| [권소희](https://github.com/Aru428)        | BE) ERD, DB제작, 유기동물 API, 채팅 기능                                                                                   | [Link](#) |
-| [이경도](https://github.com/leekyoungdo)   | BE) user API, board API, comment API, community API, AWS 배포                                                            | [Link](#) |
+|                  팀원명                   | 역할                                                                                                                     |
+| :---------------------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
+| [이도준(팀장)](https://github.com/DJ94DJ)  | FE) community, community board, shelter, Slack 및 spread sheet 관리                                                       |
+| [이동욱](https://github.com/ldw0123)       | FE) signin, signup, write, post, comment                                                                               |
+| [조연주](https://github.com/J-Yeonju)      | FE) home, nav, mypage, userprofile, board                                                                                |
+| [권소희](https://github.com/Aru428)        | BE) ERD, DB제작, 유기동물 API, 채팅 기능                                                                                   |
+| [이경도](https://github.com/leekyoungdo)   | BE) user API, board API, comment API, community API, AWS 배포                                                            |
 
 ## 📁 프로젝트 개요
 
